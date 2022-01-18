@@ -1,0 +1,80 @@
+diff -u progs/stage1-1337-expected.txt progs/stage1-1337-actual.txt \
+	&& echo PASSED test stage1-1337. \
+	|| (echo FAILED test stage1-1337. Aborting.; false)
+PASSED test stage1-1337.
+diff -u progs/stage1-42-expected.txt progs/stage1-42-actual.txt \
+	&& echo PASSED test stage1-42. \
+	|| (echo FAILED test stage1-42. Aborting.; false)
+PASSED test stage1-42.
+diff -u progs/stage1-print-multiple-expected.txt progs/stage1-print-multiple-actual.txt \
+	&& echo PASSED test stage1-print-multiple. \
+	|| (echo FAILED test stage1-print-multiple. Aborting.; false)
+PASSED test stage1-print-multiple.
+diff -u progs/stage2-1-plus-1-expected.txt progs/stage2-1-plus-1-actual.txt \
+	&& echo PASSED test stage2-1-plus-1. \
+	|| (echo FAILED test stage2-1-plus-1. Aborting.; false)
+PASSED test stage2-1-plus-1.
+diff -u progs/stage2-1-plus-2-plus-3-expected.txt progs/stage2-1-plus-2-plus-3-actual.txt \
+	&& echo PASSED test stage2-1-plus-2-plus-3. \
+	|| (echo FAILED test stage2-1-plus-2-plus-3. Aborting.; false)
+PASSED test stage2-1-plus-2-plus-3.
+diff -u progs/stage2-1-plus-5-expected.txt progs/stage2-1-plus-5-actual.txt \
+	&& echo PASSED test stage2-1-plus-5. \
+	|| (echo FAILED test stage2-1-plus-5. Aborting.; false)
+PASSED test stage2-1-plus-5.
+diff -u progs/stage2-5-plus-1-expected.txt progs/stage2-5-plus-1-actual.txt \
+	&& echo PASSED test stage2-5-plus-1. \
+	|| (echo FAILED test stage2-5-plus-1. Aborting.; false)
+PASSED test stage2-5-plus-1.
+diff -u progs/stage2-big-stack-expected.txt progs/stage2-big-stack-actual.txt \
+	&& echo PASSED test stage2-big-stack. \
+	|| (echo FAILED test stage2-big-stack. Aborting.; false)
+PASSED test stage2-big-stack.
+diff -u progs/stage2-overflow-expected.txt progs/stage2-overflow-actual.txt \
+	&& echo PASSED test stage2-overflow. \
+	|| (echo FAILED test stage2-overflow. Aborting.; false)
+PASSED test stage2-overflow.
+diff -u progs/stage3-bad-order-expected.txt progs/stage3-bad-order-actual.txt \
+	&& echo PASSED test stage3-bad-order. \
+	|| (echo FAILED test stage3-bad-order. Aborting.; false)
+PASSED test stage3-bad-order.
+diff -u progs/stage3-lots-of-ops-expected.txt progs/stage3-lots-of-ops-actual.txt \
+	&& echo PASSED test stage3-lots-of-ops. \
+	|| (echo FAILED test stage3-lots-of-ops. Aborting.; false)
+PASSED test stage3-lots-of-ops.
+diff -u progs/stage3-overflow-expected.txt progs/stage3-overflow-actual.txt \
+	&& echo PASSED test stage3-overflow. \
+	|| (echo FAILED test stage3-overflow. Aborting.; false)
+PASSED test stage3-overflow.
+diff -u progs/stage4-basic-division-expected.txt progs/stage4-basic-division-actual.txt \
+	&& echo PASSED test stage4-basic-division. \
+	|| (echo FAILED test stage4-basic-division. Aborting.; false)
+PASSED test stage4-basic-division.
+diff -u progs/stage4-lots-of-ops-expected.txt progs/stage4-lots-of-ops-actual.txt \
+	&& echo PASSED test stage4-lots-of-ops. \
+	|| (echo FAILED test stage4-lots-of-ops. Aborting.; false)
+PASSED test stage4-lots-of-ops.
+diff -u progs/stage5-big-locals-expected.txt progs/stage5-big-locals-actual.txt \
+	&& echo PASSED test stage5-big-locals. \
+	|| (echo FAILED test stage5-big-locals. Aborting.; false)
+PASSED test stage5-big-locals.
+diff -u progs/stage5-local-test-expected.txt progs/stage5-local-test-actual.txt \
+	&& echo PASSED test stage5-local-test. \
+	|| (echo FAILED test stage5-local-test. Aborting.; false)
+PASSED test stage5-local-test.
+diff -u progs/stage5-local-test2-expected.txt progs/stage5-local-test2-actual.txt \
+	&& echo PASSED test stage5-local-test2. \
+	|| (echo FAILED test stage5-local-test2. Aborting.; false)
+PASSED test stage5-local-test2.
+diff -u progs/stage5-lots-of-ops-expected.txt progs/stage5-lots-of-ops-actual.txt \
+	&& echo PASSED test stage5-lots-of-ops. \
+	|| (echo FAILED test stage5-lots-of-ops. Aborting.; false)
+PASSED test stage5-lots-of-ops.
+diff -u progs/stage6-comparisons-expected.txt progs/stage6-comparisons-actual.txt \
+	&& echo PASSED test stage6-comparisons. \
+	|| (echo FAILED test stage6-comparisons. Aborting.; false)
+PASSED test stage6-comparisons.
+diff -u progs/stage6-nested-expected.txt progs/stage6-nested-actual.txt \
+	&& echo PASSED test stage6-nested. \
+	|| (echo FAILED test stage6-nested. Aborting.; false)
+PASSED test stage6-nested.
